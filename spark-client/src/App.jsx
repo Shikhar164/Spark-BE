@@ -5,7 +5,7 @@ import Login from "./pages/Auth/Login";
 import Signup from "./pages/Auth/Signup";
 import UserData from "./pages/Auth/UserData";
 import Dashboard from "./pages/Dashboard";
-import ProtectedRoute from "./config/protectedRoute";
+import ProtectedRoute from "./config/ProtectedRoute";
 import { ToastProvider } from "./context/ToastContext";
 import Links from "./pages/Dashboard/Links";
 import LoadingOverlay from "./components/LoadingOverlay";

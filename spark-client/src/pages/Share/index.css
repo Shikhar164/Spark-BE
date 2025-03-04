@@ -1,0 +1,10 @@
+.share-view {
+    background: url("https://firebasestorage.googleapis.com/v0/b/spark-78288.firebasestorage.app/o/apps%2Ftexture.webp?alt=media&token=25c0610e-d813-4ab5-b8db-53ed45824ccb");
+}
+.configure-mobile-preview.share-view .spark-mobile-frame {
+  width: 440px;
+  height: 100vh;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}

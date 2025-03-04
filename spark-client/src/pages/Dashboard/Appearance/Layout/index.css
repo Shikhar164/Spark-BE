@@ -1,0 +1,24 @@
+.layout-options {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin: 24px;
+}
+
+.layout-options .layout-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    border-radius: 5%;
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: 1px solid black;
+}
+
+.layout-options .layout-option:hover, .layout-options .layout-option.selected {
+    background: #f6f7f5;
+    border: none;
+}

@@ -1,0 +1,17 @@
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-name {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 480px) {
+    .logo-name, hr, .logo-subtext {
+        display: none;
+    }
+}

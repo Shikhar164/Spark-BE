@@ -1,0 +1,36 @@
+.welcome-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 24px;
+}
+
+.welcome-message {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.welcome-message h2, .welcome-message p {
+  line-height: 0;
+}
+
+.welcome-action-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.welcome-action-buttons .btn-white {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+@media screen and (max-width: 820px) {
+  .welcome-header {
+    display: none;
+  }
+}

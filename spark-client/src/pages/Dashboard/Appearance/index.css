@@ -1,0 +1,13 @@
+.appearance-container {
+    margin-bottom: 40px;
+}
+
+.appearance-container .box:nth-child(2) > label{
+  margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 820px) {
+    .appearance-container .box {
+        background: #F6F7F5;
+    }
+}

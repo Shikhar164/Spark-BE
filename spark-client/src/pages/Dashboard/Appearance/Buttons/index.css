@@ -1,0 +1,52 @@
+.fill-options,
+.outlines-options,
+.hard-shadow-options,
+.soft-shadow-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.fill-options .fill-option {
+  flex: 1;
+  height: 32px;
+  background: #000000;
+  cursor: pointer;
+}
+
+.outlines-options .outline-option {
+  flex: 1;
+  height: 32px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.hard-shadow-options .hard-shadow-option {
+  flex: 1;
+  height: 32px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.soft-shadow-options .soft-shadow-option {
+  flex: 1;
+  height: 32px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.fill-name,
+.outline-name,
+.hard-shadow-name,
+.soft-shadow-name {
+  padding: 0;
+}
+
+.fill-options .fill-option.selected,
+.outlines-options .outline-option.selected,
+.hard-shadow-options .hard-shadow-option.selected,
+.soft-shadow-options .soft-shadow-option.selected {
+  border: 3px solid orange;
+}

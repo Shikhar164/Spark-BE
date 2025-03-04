@@ -1,0 +1,15 @@
+.add-service {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.add-service .spark-mobile-tabs {
+    margin: 0;
+}
+
+.added-service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

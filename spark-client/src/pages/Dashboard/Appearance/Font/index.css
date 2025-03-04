@@ -1,0 +1,27 @@
+.font-dropdown {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.font-container { 
+    display: flex;
+    border: 2px solid #F3F3F1;
+    padding: 12px;
+}
+
+.font-option-initial {
+    font-size: 32px;
+    font-family: Poppins;
+    background: #F3F3F1;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.font-container select {
+    border: none;
+}
+  

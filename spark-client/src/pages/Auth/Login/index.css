@@ -1,0 +1,28 @@
+.login-container {
+  width: 60%;
+  margin-top: 10px;
+}
+
+.login-container button {
+  margin-top: 32px;
+}
+
+.login-form-cls {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 820px) {
+  .login-container {
+    width: 100%;
+  }
+}

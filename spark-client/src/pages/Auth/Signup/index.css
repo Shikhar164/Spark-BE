@@ -1,0 +1,25 @@
+.signup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-form-cls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signup-form-cls > button {
+    margin-bottom: 20px;
+}
+
+.signup-container {
+    width: 60%;
+}
+
+@media only screen and (max-width: 820px) {
+  .signup-container {
+    width: 100%;
+  }
+}

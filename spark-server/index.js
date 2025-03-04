@@ -2,8 +2,8 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
-const userRoutes = require("../routes/user.routes");
-const analyticsRoutes = require("../routes/analytics.routes");
+const userRoutes = require("./routes/user.routes");
+const analyticsRoutes = require("./routes/analytics.routes");
 const bodyParser = require("body-parser");
 
 const app = express();
@@ -19,7 +19,6 @@ app.get("/test", (req, res) => {
 // user routes
 app.use("/", userRoutes);
 app.use("/analytics", analyticsRoutes);
-
 
 const port = process.env.PORT || 8080;
 

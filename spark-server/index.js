@@ -10,7 +10,7 @@ const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: "*", optionsSuccessStatus:200 }));
 // test route
 app.get("/test", (req, res) => {
   res.send("Hello World! This is Spark Server");
